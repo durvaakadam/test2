@@ -1,6 +1,10 @@
+int main(int argc, char **argv) {
+    char source[] = "too long";
+    char dest[5];
+    int trigger = 5;
+    if (trigger == 5) {
+        strcpy(dest, source);
+    }
 
-
-def max_val(a, b):
-    if a > b:
-        return a
-    return b
+    return 0;
+}
